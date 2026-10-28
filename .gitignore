@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Tests et couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Outils et éditeurs
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
