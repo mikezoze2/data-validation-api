@@ -86,4 +86,3 @@ def validate_records(
         "duplicates": duplicates,
         "results": results,
     }
-
