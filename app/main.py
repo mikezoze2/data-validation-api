@@ -2,12 +2,10 @@ from fastapi import FastAPI
 
 from app.schemas import (
     HealthResponse,
-    RecordInput,
     ValidationRequest,
     ValidationResponse,
 )
 from app.validation import validate_records
-
 
 app = FastAPI(
     title="Data Validation API",
