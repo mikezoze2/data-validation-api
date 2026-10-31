@@ -27,6 +27,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements-dev.txt
 
+      - name: Check dependencies
+        run: python -m pip check
+
       - name: Check code quality
         run: python -m ruff check .
 
