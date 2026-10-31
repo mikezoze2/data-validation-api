@@ -1,22 +1,37 @@
+# ============================================================
+# DATA VALIDATION API — GIT IGNORE
+# ============================================================
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Environnements virtuels
-.venv/
+.venv*/
 venv/
 env/
 
 # Tests et couverture
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
+
+# Qualité du code et caches
+.ruff_cache/
+.mypy_cache/
 
 # Secrets et variables d'environnement
 .env
 .env.*
 !.env.example
+
+# Build et packaging
+build/
+dist/
+*.egg-info/
+.eggs/
 
 # Outils et éditeurs
 .vscode/
@@ -26,5 +41,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs et fichiers temporaires
 *.log
+logs/
+tmp/
